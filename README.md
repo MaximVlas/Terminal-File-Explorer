@@ -14,6 +14,15 @@ This is a simple terminal-based file explorer written in **C** that allows users
 - **u**: Move up one directory.
 - **cd <path>**: Change the current directory to `<path>`.
 - **Enter (on a folder/file name)**: Open the selected folder/file.
+- **filter size <min>-<max>**: Filter files by size.
+    Example: filter size 10K-2M (shows files between 10 KB and 2 MB).
+- **filter type** <f|d>: Filter by file type.
+    f: Files only.
+    d: Directories only.
+    Example: <filter type f> (shows files only).
+- **search <term>**: Search for files or directories containing the specified term/name.
+    Example: <search image>. 
+- **clear filter**: Reset all active filters.
 
 ## Compilation and Execution
 
