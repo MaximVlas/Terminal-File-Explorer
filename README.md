@@ -7,7 +7,6 @@ This is a simple terminal-based file explorer written in **C** that allows users
 - **List Contents**: Display files and folders in the current directory.
 - **Change Directory**: Navigate to a specific directory using the `cd` command.
 - **File and Directory Details**: View file types and sizes.
-- **Cross-Platform Support**: Compatible with both Windows and Unix-like systems.
 
 ## Commands
 - **q**: Quit the application.
@@ -28,8 +27,7 @@ This is a simple terminal-based file explorer written in **C** that allows users
 
 ### On Linux/MacOS
 ```bash
-gcc -o file_explorer main.c
-./file_explorer
+Linux support will be added later
 ```
 
 ### On Windows
@@ -40,12 +38,10 @@ file_explorer.exe
 
 ## Dependencies
 - **GCC Compiler**
-- Standard C Libraries (stdio.h, stdlib.h, string.h, dirent.h, sys/stat.h, unistd.h)
+- Standard C Libraries (stdio.h, stdlib.h, string.h, dirent.h, sys/stat.h, unistd.h, errno.h, limits.h, ctype.h, time.h, windows.h, shlwapi.h)
 
 ## Known Issues
-- Symbolic links are not supported on Windows.
-- Some system-specific behavior may vary.
-
+- Linux is not fully supported yet.
 
 ## License
 This project is licensed under the **MIT License**.
