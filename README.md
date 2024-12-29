@@ -46,10 +46,8 @@ This project is licensed under the **MIT License**.
 Feel free to fork this repository, submit issues, or create pull requests.
 
 ## Author
-[Your Name]  
-[Your Contact Info]  
-[Your GitHub Profile Link]  
+[Maxim Vlas]   
 
 ---
-Enjoy exploring your filesystem from the terminal!
+
 
