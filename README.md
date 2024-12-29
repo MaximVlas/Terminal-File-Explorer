@@ -12,9 +12,8 @@ This is a simple terminal-based file explorer written in **C** that allows users
 ## Commands
 - **q**: Quit the application.
 - **u**: Move up one directory.
-- **lc**: List the contents of the current directory.
 - **cd <path>**: Change the current directory to `<path>`.
-- **Enter (on a folder name)**: Open the selected folder.
+- **Enter (on a folder/file name)**: Open the selected folder/file.
 
 ## Compilation and Execution
 
