@@ -27,7 +27,8 @@ This is a simple terminal-based file explorer written in **C** that allows users
 
 ### On Linux/MacOS
 ```bash
-Linux support will be added later
+gcc -o file_explorer main.c
+file_explorer.exe
 ```
 
 ### On Windows
@@ -41,8 +42,11 @@ file_explorer.exe
 - Standard C Libraries (stdio.h, stdlib.h, string.h, dirent.h, sys/stat.h, unistd.h, errno.h, limits.h, ctype.h, time.h, windows.h, shlwapi.h)
 
 ## Known Issues
-- Linux is not fully supported yet.
-
+- Buffer Overflows
+  strncat appends up to count characters and always null-terminates, potentially causing an overflow
+- MAX_INPUT
+  As MAX_INPUT is already defined in the system header file /usr/include/linux/limits.h as 255. But in main.c file is defined as 256
+  
 ## License
 This project is licensed under the **MIT License**.
 
